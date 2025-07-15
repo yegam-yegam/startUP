@@ -25,17 +25,12 @@ if st.button("9"):
   n1 = n1*10+9
 if st.button("+"):
   o = 1
-  break
 if st.button("-"):
   o = 2
-  break
 if st.button("*"):
   o = 3
-  break
 if st.button("/"):
   o = 4
-  break
-
 
 if st.button("1"):
   n2 = n2*10+1
@@ -55,14 +50,7 @@ if st.button("8"):
   n2 = n2*10+8
 if st.button("9"):
   n2 = n2*10+9
-if st.button("+"):
-  break
-if st.button("-"):
-  break
-if st.button("*"):
-  break
-if st.button("/"):
-  break
+
 
 if o == 1:
   r=n1+n2
