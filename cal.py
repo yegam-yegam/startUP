@@ -65,13 +65,13 @@ while(true):
   if st.button("/"):
     break
 
-if o = 1:
+if o == 1:
   r=n1+n2
-if o = 2:
+if o == 2:
   r=n1-n2
-if o = 3:
+if o == 3:
   r=n1*n2
-if o = 4:
+if o == 4:
   r=n1/n2
   
 st.write(f"Result: {r}")
