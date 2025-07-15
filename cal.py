@@ -8,15 +8,6 @@ if st.button("계산하기"):
     try:
         r = round(w/((l/100)**2), 2)
         st.write(f"BMI: {r}")
-        st.write("\n    저체중            정상        과체중        비만                고도비만")
-        st.write("             18.5               23      25                  30")
-        st.write("              !                 !       !                   !                   ")
-        st.write("="*80)
-        i = int((r-15)*4)
-        if i > 80:
-            i = 78
-        st.write(" "*i,"^")
-
         if r <= 18:
             st.write("저체중 입니다.")
         if r > 18 and bmi <= 23:
