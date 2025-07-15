@@ -12,7 +12,7 @@ if st.button("계산하기"):
         st.write("             18.5               23      25                  30")
         st.write("              !                 !       !                   !                   ")
         st.write("="*80)
-        i = round((r-15)*4, 0)
+        i = int((r-15)*4)
         if i > 80:
             i = 78
         st.write(" "*i,"^")
