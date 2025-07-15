@@ -7,7 +7,7 @@ if st.button("계산하기"):
     try:
         l /= 100
         l *= l
-        r = w/l
+        r = round(w/l, 2)
         st.write(f"BMI: {r}")
     except Exception as e:
         st.error("오류 발생")
