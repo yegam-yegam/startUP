@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 제목
-st.title("Simple Calculator")
+st.title("Calculator")
 
 # 사용자 입력
 number1 = st.number_input("Enter first number", value=0)
