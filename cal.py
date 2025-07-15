@@ -10,11 +10,11 @@ if st.button("계산하기"):
         st.write(f"BMI: {r}")
         if r <= 18:
             st.write("저체중 입니다.")
-        if r > 18 and bmi <= 23:
+        if r > 18 and r <= 23:
             st.write("정상 입니다.")       
-        if r > 23 and bmi <= 25:
+        if r > 23 and r <= 25:
             st.write("과체중 입니다.")       
-        if r > 25 and bmi <= 30:
+        if r > 25 and r <= 30:
             st.write("비만 입니다.")
         if r > 30:
             st.write("고도비만 입니다.")
