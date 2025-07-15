@@ -32,7 +32,7 @@ if st.button("*"):
   o = 3
 if st.button("/"):
   o = 4
-
+st.write(f"n1 = {n1}")
 
 if o == 1:
   r=n1+n2
