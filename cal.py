@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("Calculator")
-o=0
+r=0
 n1 = 0
 n2 = 0
 
